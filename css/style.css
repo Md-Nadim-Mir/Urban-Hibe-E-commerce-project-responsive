@@ -10,7 +10,7 @@ body {
 
 }
 
-/* nav item */
+/* nav item start */
 
 .nav-container{
     display: flex;
@@ -70,4 +70,83 @@ body {
     border-radius: .3em;
 
 }
+
+
+/* nav item end */
+
+
+/* banner start */
+
+
+
+.banner-container{
+
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 1em 6em;
+    padding: .7em;
+    background-color: #E6E9EB;
+    border-radius: .7em;
+}
+
+
+.banner-content{
+    text-align: center;
+    margin-left: 9em;
+}
+
+
+.banner-content-title{
+
+    background-image: linear-gradient(to bottom,#9376e0,#e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3.2em;
+}
+
+
+.banner-content-info{
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+}
+
+.icons-container{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+
+.fa-brands{
+    font-size: 40px;
+}
+
+
+.banner-button{
+    background-color: transparent;
+    padding: .6em 1.2em;
+    border: 2px solid #9376e0;
+    margin-right: .3em;
+    border-radius: .3em;
+    font-size: .8em;
+}
+
+
+
+
+
+.banner-img img{
+
+    width: 560px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+/* banner end */
 

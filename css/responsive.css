@@ -36,3 +36,97 @@ body {
     }
     
 }
+
+/* nav item  responsive end */
+
+
+
+
+/* banner item responsive mobile and tablet start */
+
+@media screen and (min-width:300px) and (max-width: 900px) {
+
+    .banner-container {
+
+        flex-direction: column;
+        /* margin: 1em 3.5em; */
+        padding: 1em;
+        background-color: #E6E9EB;
+        border-radius: .7em;
+    }
+
+    .banner-content {
+        /* text-align: center; */
+        /* margin-left: .7em; */
+        margin-left: 2.3em;
+    }
+
+    .banner-content-title {
+        font-size: 2.2em;
+    }
+
+    .banner-content-info {
+        font-size: 1em;
+        font-weight: 700;
+        font-family: 'Dancing Script', cursive;
+    }
+
+   
+
+    .banner-img img{
+
+        width: 14em;
+        object-fit: cover;
+        border-radius: 1em;
+        margin-top: 1.8em;
+        margin-left: 3em;
+        margin-right: 3em;
+        
+    }
+    
+}
+
+/* banner item responsive mobile and tablet start */
+
+
+/* banner item responsive  tablet start */
+
+@media screen and (min-width:900px) and (max-width: 1390px) {
+
+    .banner-container {
+       
+        margin: 1em 2.1em;
+          
+    }
+
+    .banner-content {
+        text-align: center;
+        margin-left: 1em;
+    }
+
+
+    .banner-content-title {
+        font-size: 2.2em;
+    }
+
+    .banner-content-info {
+        font-size: 1.3em;
+        font-weight: 700;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    
+
+    .banner-img img{
+
+        width: 470px;
+        object-fit: cover;
+        border-radius: 1em;
+    }
+
+
+    
+}
+
+
+/* banner item responsive  tablet end */
