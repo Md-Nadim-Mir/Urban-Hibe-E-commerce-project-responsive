@@ -56,9 +56,9 @@ body {
     }
 
     .banner-content {
-        /* text-align: center; */
+        text-align: center;
         /* margin-left: .7em; */
-        margin-left: 1.em;
+        margin-left: 1.5em;
     }
 
     .banner-content-title {
@@ -95,7 +95,7 @@ body {
 
     .banner-container {
        
-        margin: 1em 2.1em;
+        margin: 1em 4.1em;
           
     }
 
