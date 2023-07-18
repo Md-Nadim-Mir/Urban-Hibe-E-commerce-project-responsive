@@ -1,0 +1,73 @@
+/* google font add  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&family=Poppins:wght@400;500;600;700&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+body {
+
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* nav item */
+
+.nav-container{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 8em;
+    background-color: #9376E0;
+}
+
+.nav-logo{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-logo img{
+    width: 80px;
+    object-fit: cover;
+}
+
+.nav-logo h1{
+
+    font-size: 2em;
+    font-weight: 900;
+
+}
+
+.nav-item ul{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+
+.nav-item ul li a{
+    text-decoration: none;
+    margin-right: 1em;
+    font-size: 1.5em;
+    color: white;
+    
+}
+
+.nav-item ul li button{
+
+    color: black;
+    font-size: .9em;
+    font-weight: bold;
+    background-color:pink;
+    padding: .2em .5em;
+    border-radius: .3em;
+
+}
+
